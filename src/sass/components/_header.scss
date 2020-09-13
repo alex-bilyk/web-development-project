@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    padding: 35px 0;
+    width: 100%;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {
+        a {
+            color: rgb(33, 33, 33);
+            font-size: 25px;
+            text-decoration: none;
+        }
+    }
+
+    nav {
+        margin-left: auto;
+
+        ul {
+            display: flex;
+
+            li {
+                margin-left: 45px;
+                list-style: none;
+
+                &:first-of-type {
+                    margin-left: 0;
+                }
+
+                a {
+                    color: rgb(33, 33, 33);
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    &__search {
+        margin-left: 60px;
+
+        &__btn {
+            width: 24px;
+        }
+    }
+}

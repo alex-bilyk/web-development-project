@@ -1,0 +1,14 @@
+// import libs
+@import "~normalize.css/normalize";
+
+// import base files 
+@import "base/variables.scss";
+@import "base/fonts.scss";
+@import "base/default.scss";
+
+// import components
+@import "components/_header.scss";
+@import "components/_footer.scss";
+
+// import pages
+@import "pages/index.scss";
