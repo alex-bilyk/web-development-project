@@ -18,7 +18,7 @@ body {
     margin: 0 auto;
     max-width: 670px;
     text-align: center;
-    color: rgb(33, 33, 33);
+    color: $base-text-color;
 
     &__title {
         font-size: 30px;
@@ -28,5 +28,9 @@ body {
     &__description {
         margin-top: 35px;
         font-size: 15px;
+    }
+
+    &_light {
+        color: rgb(255, 255, 255);
     }
 }
